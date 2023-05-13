@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css"  type="text/css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Registration Form</h2>
+            <form id="form" class="form">
+                <label>First Name:</label>
+                <input type="text" name="fname" id="fname"  required><br><br>
+                <label>Last Name:</label>
+                <input type="text" name="-lname" id="lname" ><br><br>
+                <label>Your Age:</label>
+                <input type="number" name="age" id="age"  required><br><br>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" ><br><br>
+                <label>Mobile No:</label>
+                <input type="tel" name="phone" id="phone"  pattern="[0-9]{10}" required><br><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label><br><br>
+                <label>Known Language:</label><br>
+                <input type="checkbox" name="lang" id="c++" value="C++">
+                <label for="c++">C++</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="lang" id="c" value="C">
+                <label for="c">C</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="lang" id="java" value="Java">
+                <label for="java">Java</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="lang" id="html" value="HTML">
+                <label for="html">HTML</label><br><br>
+                <label>Hobbies:</label>
+                <select name="hobbies" id="hobbies">
+                    <option value="dance">Dance</option>
+                    <option value="singing">Singing</option>
+                    <option value="writing">Writing</option>
+                    <option value="sports">Sports</option>
+                </select><br><br>
+                <button type="submit" id="submit-btn">Submit</button>
+			<br><br>
+			
+		<div class="buttons">
+			<button id="show-users" class="control-btn">Show Users</button>
+			<button id="clear-users" class="control-btn">Clear Users</button>
+		</div>
+		<!-- Data Display Section -->
+		<div class="data-show">
+
+        </div>
+	
+		</form>
+   </div> 
+</div>
+	<script src="./script.js"></script>
+	<script src="./validations.js"></script>
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
